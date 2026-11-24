@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+<head><title>Profile</title></head>
+<body>
+  <h1>Welcome back, {{ display_name_html|safe }}</h1>
+  <p>Member since: {{ member_since }}</p>
+  <div id="bio">{{ bio|safe }}</div>
+</body>
+</html>
